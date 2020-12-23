@@ -1,0 +1,47 @@
+{
+  "routes": [
+    {
+      "path": "/",
+      "source": "pages/Home/index",
+      "window": {
+        "title": "index页面"
+      }
+    },
+    {
+      "path": "/pay",
+      "source": "pages/Pay/index"
+    },
+    {
+      "path": "/my",
+      "source": "pages/My/index"
+    }
+  ],
+  "window": {
+    "title": "Rax App"
+  },
+  "tabBar": {
+    "textColor": "#ccc",
+    "selectedColor": "red",
+    "backgroundColor": "blue",
+    "items": [
+        {
+          "name": "首页",
+          "path": "/",
+          "icon": "https://gw.alicdn.com/tfs/TB1ypSMTcfpK1RjSZFOXXa6nFXa-144-144.png",
+          "activeIcon": "https://gw.alicdn.com/tfs/TB1NBiCTgHqK1RjSZFPXXcwapXa-144-144.png"
+        },
+        {
+          "name": "已购",
+          "path": "/pay",
+          "icon": "https://gw.alicdn.com/tfs/TB1ypSMTcfpK1RjSZFOXXa6nFXa-144-144.png",
+          "activeIcon": "https://gw.alicdn.com/tfs/TB1NBiCTgHqK1RjSZFPXXcwapXa-144-144.png"
+        },
+        {
+          "name": "我的",
+          "path": "/my",
+          "icon": "https://gw.alicdn.com/tfs/TB1ypSMTcfpK1RjSZFOXXa6nFXa-144-144.png",
+          "activeIcon": "https://gw.alicdn.com/tfs/TB1NBiCTgHqK1RjSZFPXXcwapXa-144-144.png"
+        }
+    ]
+  }
+}
